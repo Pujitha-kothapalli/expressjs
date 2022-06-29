@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMS</title>
+</head>
+<body >
+	
+	<form action="/formsubmit" method="post" target="_blank"  >
+		<center>
+		<table border="0" width="500" height="500">
+		<tr>
+			<td colspan="2"><h3><b>STUDENT DETAILS</b></h3>
+			</td>
+		</tr>
+		<tr >
+			<td>
+				<label for="name">Name: </label>
+			</td>
+			<td>
+				<input type="text" size = "30" name="username" autofocus placeholder="Enter your name" required />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Password:</label>
+			</td>
+		    <td>
+		    	<input type="password" size = "30" name="password" placeholder="Enter your password" required />
+		    </td>
+		</tr>
+		<tr>
+			<td><label>Email:</label>
+			</td>
+			<td>
+				<input type="email" size = "30" name="email" placeholder="Enter your email" required/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Ph Number:</label>
+			</td>
+			<td>
+				<input type="tel" name="number" placeholder="Enter your ph number" required />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<label>Hobbies:</label>
+			</td>
+			<td>
+				<input type="checkbox" name="hobbies" />games
+		        <input type="checkbox" name="hobbies"  />drawing
+			    <input type="checkbox" name="hobbies"/>music
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Gender:</label>
+			</td>
+			<td>
+				<input type="radio" name="gender" />Male
+				<input type="radio" name="gender" />Female
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2">
+				<center>
+					<input type="submit" value="Submit">
+				</center>
+			</td>
+		</tr>
+
+		</table>
+	</center>
+		
+	</form>
+</body>
+</html>
